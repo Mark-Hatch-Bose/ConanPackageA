@@ -10,7 +10,6 @@ class PackageA(ConanFile):
         "url": "git@github.com:Mark-Hatch-Bose/ConanPackageA.git",
         "revision": "auto"
     }
-    exports = "file.txt"
         
     def package(self):
         self.copy("*")
